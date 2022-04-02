@@ -1,0 +1,21 @@
+
+form{
+  background-color: rgb(0, 87, 158);
+  width: 60%;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.form-group {
+  margin: 10px;
+}
+
+h3{
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(155, 155, 31);
+}
+
+button{
+  margin: 10px;
+}
