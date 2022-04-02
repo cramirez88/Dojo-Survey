@@ -7,6 +7,41 @@
   <title>Dojo Survey</title>
 </head>
 <body>
-  <h1>Hello, World</h1>
+  <form action="/process">
+    <h3>Dojo Survey</h3>
+    <div>
+      <label for="name">Name</label>
+      <input type="text" name="name">
+    </div>
+    <div>
+      <label for="location">Dojo Location</label>
+      <select name="location">
+        <option value="">--Select One--</option>
+        <option value="chicago">Chicago</option>
+        <option value="burbank">Burbank</option>
+        <option value="bellevue">Bellevue</option>
+        <option value="seattle">Seattle</option>
+        <option value="online">Online</option>
+      </select>
+     
+    </div>
+
+    <div>
+      <label for="language">Favorite Language</label>
+      <select name="language">
+      <option value="">--Select One--</option>
+      <option value="c">C</option>
+      <option value="python">Python</option>
+      <option value="javascript">Javascript</option>
+      <option value="java">Java</option>
+      </select>
+      
+    </div>
+    <div>
+      <label for="comments">Comments</label>
+      <textarea name="comments" cols="30" rows="10"></textarea>
+    </div>
+
+  </form>
 </body>
 </html>
